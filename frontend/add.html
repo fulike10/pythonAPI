@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Autó Hozzáadás</title>
+    <link rel="stylesheet" href="add.css" />
+  </head>
+  <body>
+    <h2>Autó információk</h2>
+    <form action="" method="post">
+      <table>
+        <tr>
+          <td>Gyártó</td>
+          <td><input type="text" id="gyarto" name="gyarto" /></td>
+        </tr>
+        <tr>
+          <td>Típus</td>
+          <td><input type="text" id="tipus" name="tipus" /></td>
+        </tr>
+        <tr>
+          <td>Evjarat</td>
+          <td><input type="text" id="evjarat" name="evjarat" /></td>
+        </tr>
+        <tr>
+          <td>Szín</td>
+          <td><input type="text" id="szin" name="szin" /></td>
+        </tr>
+        <tr>
+          <td>Ajtók száma</td>
+          <td><input type="text" id="ajtok_szama" name="ajtok_szama" /></td>
+        </tr>
+      </table>
+      <button
+        onclick="sendPost()"
+        id="sub"
+        type="submit"
+        value="Submit"
+        class="button1"
+      >
+        Hozzáadás
+      </button>
+      <button class="button2">
+        <a href="index.html">Admin</a>
+      </button>
+    </form>
+    <script src="add.js"></script>
+  </body>
+</html>
